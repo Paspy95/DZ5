@@ -11,8 +11,11 @@ public class RestService {
                 money = (money + income - expenses);
             } else {
                 money = (money - expenses) / 3;
-                {count=count+1;}
-          System.out.println(count);  }
+                {
+                    count = count + 1;
+                }
+                System.out.println(count);
+            }
         }
         return count;
     }
